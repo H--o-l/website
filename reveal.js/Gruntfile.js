@@ -107,12 +107,12 @@ module.exports = function(grunt) {
 			bundle: {
 				src: [
 					'index.html',
+					'assets/**',
 					'css/**',
 					'js/**',
 					'lib/**',
 					'images/**',
 					'plugin/**',
-					'**.md'
 				],
 				dest: 'reveal-js-presentation.zip'
 			}
@@ -182,7 +182,7 @@ module.exports = function(grunt) {
 	grunt.registerTask( 'css', [ 'sass', 'autoprefixer', 'cssmin' ] );
 
 	// Package presentation to archive
-	grunt.registerTask( 'package', [ 'default', 'zip' ] );
+	grunt.registerTask( 'package', [ 'zip' ] );
 
 	// Serve presentation locally
 	grunt.registerTask( 'serve', [ 'connect', 'watch' ] );
