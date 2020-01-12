@@ -10,9 +10,7 @@
 
 ### Snakify
 
-<https://snakify.org/en/lessons/print_input_numbers>
-
-Créer un compte en haut à droite, cocher "j'ai un enseignant" => **hoel.iris@gmail.com**
+<https://snakify.org/join_class/hoel.iris/gmail.com/>
 
 ### CodinGame
 
