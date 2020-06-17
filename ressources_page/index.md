@@ -191,6 +191,11 @@ N'utiliser que les cours gratuits sans vidéo.
 
 ## TP seed
 
+~~~
+C:\Python27\Scripts\pip.exe install keyboard
+C:\Python27\Scripts\pip.exe install requests
+~~~
+
 ~~~py
 # -*- coding: utf-8 -*-
 
@@ -198,7 +203,7 @@ N'utiliser que les cours gratuits sans vidéo.
 # 2. Go where you saved the file, for example:
 #      > cd c:\Users\gim\Desktop
 # 3. Use python 2.7 (keyboard issue with python 3.7):
-#      > C:\Python27\python.exe '.\file.py'
+#      > C:\Python27\python.exe .\Desktop\file.py
 
 import keyboard
 import requests
@@ -211,3 +216,10 @@ while True:
     print key.name
     print key.scan_code
 ~~~
+
+---
+
+Robot
+robotics
+
+niryoone
