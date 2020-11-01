@@ -18,18 +18,6 @@
     name: epel-release
   become: true
 
-- name: Install dnf-automatic
-  dnf:
-    name: dnf-automatic
-  become: true
-
-- name: Enable dnf-automatic
-  service:
-    name: dnf-automatic
-    enabled: true
-    state: started
-  become: true
-
 - name: Set Paris timezone
   timezone:
     name: Europe/Paris

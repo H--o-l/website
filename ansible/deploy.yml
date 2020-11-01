@@ -2,6 +2,6 @@
 
 - hosts: google
   roles:
-    # - centos
-    # - nginx
+    - centos
+    - nginx
     - website
