@@ -196,14 +196,12 @@ C:\Python27\Scripts\pip.exe install keyboard
 C:\Python27\Scripts\pip.exe install requests
 ~~~
 
+1. Launch windows powershell
+2. `C:\Python27\python.exe c:\Users\p62560\Desktop\file.py`
+
+
 ~~~py
 # -*- coding: utf-8 -*-
-
-# 1. Launch windows powershell
-# 2. Go where you saved the file, for example:
-#      > cd c:\Users\gim\Desktop
-# 3. Use python 2.7 (keyboard issue with python 3.7):
-#      > C:\Python27\python.exe .\Desktop\file.py
 
 import keyboard
 import requests
